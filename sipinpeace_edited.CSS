@@ -1,18 +1,78 @@
-.wallpaper-rotation {
-    width: 100%; /* Set the width as needed */
-    height: 100vh; /* Set the height as needed */
-    object-fit: cover;
-    animation: rotateWallpaper 25s linear infinite; /* Adjusted duration to 25s */
+html {
+    --mobile-scale: 3.2;
+    --mobile-padding-offset: 0.71;
 }
 
-@keyframes rotateWallpaper {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+body {
+    --swatch-1: rgba(0, 0, 0, 0.85);
+    --swatch-2: rgba(0, 0, 0, 0.75);
+    --swatch-3: rgba(0, 0, 0, 0.6);
+    --swatch-4: rgba(0, 0, 0, 0.4);
+    --swatch-5: rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
 }
 
-/* Add the rest of your CSS rules here */
+a:active,
+.linked:active,
+.zoomable::part(media):active {
+    opacity: 0.7;
+}
 
+.page a.active {
+    color: #ff0000;
+}
+
+sub {
+    position: relative;
+    vertical-align: baseline;
+    top: 0.3em;
+}
+
+sup {
+    position: relative;
+    vertical-align: baseline;
+    top: -0.4em;
+}
+
+.small-caps {
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+ol {
+    margin: 0;
+    padding: 0 0 0 2.5em;
+    list-style-type: decimal-leading-zero;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 2.0em;
+}
+
+ul.lineated {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 0 0 0 3em;
+    text-indent: -3em;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0 0 0 2em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    display: block;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.content {
+    border-style: solid;
+    border-width: 0rem;
+    border-color: rgba(0,0,0,.85);
+}
