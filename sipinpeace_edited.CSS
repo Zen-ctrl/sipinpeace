@@ -1,3 +1,19 @@
+.wallpaper-rotation {
+    width: 100%; /* Set the width as needed */
+    height: 100vh; /* Set the height as needed */
+    object-fit: cover;
+    animation: rotateWallpaper 25s linear infinite; /* Adjusted duration to 25s */
+}
+
+@keyframes rotateWallpaper {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 html {
     --mobile-scale: 3.2;
     --mobile-padding-offset: 0.71;
