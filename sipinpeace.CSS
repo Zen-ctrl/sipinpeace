@@ -1,0 +1,53 @@
+
+[id="T3057851291"].page {
+	background-color: #ffffff;
+	justify-content: center;
+	min-height: var(--viewport-height);
+}
+
+[id="T3057851291"] .backdrop {
+}
+
+.mobile [id="T3057851291"] .backdrop {
+}
+
+.mobile [id="T3057851291"] .page-layout {
+"] .page-content {
+	width: 100%;
+	border-width: rem;
+	border-color: rgba(0,0,0,.85);
+	border-style: solid;
+	text-align: center;
+
+}
+
+
+
+
+digital-clock {
+    position: absolute;
+    top: -110px; /* Adjust the top value to move it vertically */
+    left: -75px; /* Adjust the left value to move it horizontally */
+    font-size: 2px
+    color: #6011bb; /* Adjust the color as needed */
+}
+
+/* Media query for screens smaller than 600px (adjust as needed) */
+digital-clock {@media screen and (max-width: 600px) {
+        top: -90px; /* Adjust the top value for mobile view */
+        left: 8px; /* Adjust the left value for mobile view */
+        font-size: 21px; /* Adjust the font size for mobile view */
+        letter-spacing: -.32px
+
+[id="T3057851291"] .page-layout {
+	padding: 0rem;
+	max-width: 0%;
+	align-items: center;
+
+[id="T3057851291"] .page-content {
+	width: 100%;
+	align-items: flex-start;
+}
+	max-width: 100%;
+	min-width: 100%;
+	min-height: var(--viewport-height);
