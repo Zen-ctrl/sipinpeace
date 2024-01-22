@@ -1,0 +1,48 @@
+
+
+
+<meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <style>
+        /* Add position-related styles here */
+        a.for-clothes {
+            position: relative; /* Set the position property */
+            display: block; /* Ensure it behaves like a block-level element */
+        }
+
+        media-item.zoomable {
+            position: relative; /* Set the position property */
+            display: block; /* Ensure it behaves like a block-level element */
+            margin-top: 20px; /* Adjust top margin as needed */
+        }
+    </style>
+
+
+    <!--  Your existing HTML code  -->
+    <a class="for-clothes" href="sip-wavybone-shirt" rel="history" style=" position:relative; filter: drop-shadow(1rem 1rem 1.75rem rgb(118, 118, 118)); will-change: filter;"></a>
+
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<column-set gutter="2"><column-unit slot="0" style="width: 100%;"> <!--  Adjust the width value as needed  --><br>
+<media-item class="zoomable" hash="M1592530799621778812175239706828" scale="21rem"></media-item><br>
+<br>
+<br>
+<a href="sip-sweater" rel="history">
+</a></column-unit></column-set>
+
+
+<span class="for-clothes" style="--font-scale: 0.81;"><a href="sip-sweater">SIP sweater</a>
+
+
+
+
+
+</span>
